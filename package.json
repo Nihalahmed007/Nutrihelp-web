@@ -41,7 +41,7 @@
     "react-toastify": "^11.0.5",
     "recharts": "^2.15.4",
     "semantic-ui-css": "^2.5.0",
-    "semantic-ui-react": "^2.1.4",
+    "semantic-ui-react": "^2.1.5",
     "supports-color": "^9.4.0",
     "swiper": "^11.2.6",
     "to-regex-range": "^5.0.1",
