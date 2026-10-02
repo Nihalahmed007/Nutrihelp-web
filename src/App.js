@@ -6,6 +6,7 @@ import { initializeSeniorMode } from "./utils/seniorModeManager";
 import "./styles/global-dark-mode.css";
 import "./styles/root-style-system.css";
 import "./styles/senior-mode.css";
+import SecurityDashboard from "./routes/SecurityDashboard/SecurityDashboard";
 
 import {
   BrowserRouter as Router,
@@ -181,7 +182,17 @@ function App() {
               <Home />
             </AuthenticateRoute>
           }
-        />
+          />
+
+          <Route
+           path="/security-dashboard"
+           element={
+            <AuthenticateRoute>
+            <SecurityDashboard />
+              </AuthenticateRoute>
+           }
+          />
+      
         <Route
           path="/faq"
           element={
